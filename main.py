@@ -23,7 +23,7 @@ def guardar(event=None, guardar_como=False):
             archivo.write(contenido)
         print("¡Notas guardadas en:", archivo_guardado, "!")
     else:
-        print("Guardado cancelado.")
+        print("Guardado fallido.")
 
 def guardar_como(event=None):
     guardar(event, guardar_como=True)
